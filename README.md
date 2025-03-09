@@ -40,15 +40,12 @@ Após a execução das simulações, os resultados de ambas as abordagens (simul
    - Certifique-se de que você tem o Python 3.x e o Java instalados em sua máquina.
    - Instale as dependências do Python utilizando o comando:
      ```bash
-     pip install pandas matplotlib openpyxl math os suobprocess
+     pip install pandas matplotlib math os suobprocess
      ```
-
+     
 2. **Rodar o Código**:
-   - Execute o script Python para automatizar a execução da simulação Java e realizar a comparação com o modelo de teoria das filas. O script da questão 2 irá salvar os resultados em um arquivo Excel (`results1.xlsx`) e gerar os gráficos de comparação e o modelo em também um arquivo Excel (`results2.xlsx`). Já o O script da questão 3 irá salvar os resultados em um arquivo Excel (`results3.xlsx`) e gerar os gráficos de comparação e o modelo em também um arquivo Excel (`results4.xlsx`).
-   - Para executar o código, utilize o comando:
-     ```bash
-     python nome_do_script.py
-     ```
+   - Execute o script Python para automatizar a execução da simulação Java e realizar a comparação com o modelo de teoria das filas. O script da questão 2 irá salvar os resultados em um arquivo Excel (`results1.xlsx`) e o modelo eteorico também vai gerar um arquivo Excel (`results2.xlsx`). Já o O script da questão 3 irá salvar os resultados em um arquivo Excel (`results3.xlsx`) e o modelo teórico também vai gerar um arquivo Excel (`results4.xlsx`). Após terms os aruqivos de comparação vai ser gerado os gráficos para comparação dos resultados.
+
 
 3. **Verificar Resultados**:
    - Os resultados serão salvos no arquivo `relatorio.ipynb`. Você também verá gráficos comparando as simulações Java com a teoria das filas.
